@@ -10,12 +10,15 @@
   </head>
   <body>
     <main>
-      <!--Slideshow-->
-      <div class="slideshow-container">
-        <div class="slide">
-          <img src="./assets/images/picture-1.jpg" alt="Bilde 1" />
-          <p class="caption">Bildetekst 1</p>
+      <div class="slideshow__container">
+        <!-- Lysbildene genereres dynamisk -->
+        <div class="navigation-buttons">
+          <button class="previous" onclick="changeSlide(-1)">◀︎</button>
+          <button class="next" onclick="changeSlide(+1)">▶︎</button>
         </div>
+<<<js-function
+        <div class="bullets__container"></div>
+=======
 
         <div class="slide">
           <img src="./assets/images/picture-2.jpg" alt="Bilde 2" />
@@ -61,6 +64,7 @@
           <span class="dot" onclick="goToSlide(5)"></span>
         </div>
         <!--Nummerering-->
+
         <div class="counter">Bilde 1 av 6</div>
       </div>
     </main>
