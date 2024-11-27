@@ -7,6 +7,10 @@ const slidePictrue = [
   { image: "./assets/images/picture-5.jpg", description: "forest" },
 ];
 
+//Select buttons from HTML
+const previousButton = document.querySelector(".previous");
+const nextButton = document.querySelector(".next");
+
 const slideContainer = document.querySelector(".slideshow__container");
 const bulletsContainer = document.querySelector(".bullets__container");
 
@@ -85,3 +89,6 @@ document.addEventListener("DOMContentLoaded", () => {
     updateCounter(0, slides.length);
   }
 });
+
+previousButton.addEventListener("click", () => changeSlide(-1));
+nextButton.addEventListener("click", () => changeSlide(+1));
