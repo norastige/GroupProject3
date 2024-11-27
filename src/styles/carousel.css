@@ -107,7 +107,6 @@ main {
   color: var(--color-text);
 }
 
-/* Bullets */
 .bullets {
   bottom: 110px;
   width: 100%;
@@ -142,6 +141,19 @@ main {
   .previous,
   .next {
     padding: 0 var(--spacing-medium);
+
+@media screen and (max-width: 500px) {
+  .slide img {
+    width: 20rem;
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .slide img {
+    width: 18rem;
+    height: 28rem;
+
   }
 }
 @media screen and (max-width:620px) {
