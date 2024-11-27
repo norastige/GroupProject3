@@ -16,7 +16,55 @@
           <button class="previous" onclick="changeSlide(-1)">◀︎</button>
           <button class="next" onclick="changeSlide(+1)">▶︎</button>
         </div>
+<<<js-function
         <div class="bullets__container"></div>
+=======
+
+        <div class="slide">
+          <img src="./assets/images/picture-2.jpg" alt="Bilde 2" />
+          <p class="caption">Bildetekst 2</p>
+        </div>
+
+        <div class="slide">
+          <img src="./assets/images/picture-3.jpg" alt="Bilde 3" />
+          <p class="caption">Bildetekst 3</p>
+        </div>
+
+        <div class="slide">
+          <img src="./assets/images/picture-4.jpg" alt="Bilde 4" />
+          <p class="caption">Bildetekst 4</p>
+        </div>
+
+        <div class="slide">
+          <img src="./assets/images/picture-5.jpg" alt="Bilde 5" />
+          <p class="caption">Bildetekst 5</p>
+        </div>
+
+        <div class="slide">
+          <img src="./assets/images/picture-6.jpg" alt="Bilde 6" />
+          <p class="caption">Bildetekst 6</p>
+        </div>
+
+        <!--Navigasjonsknapper-->
+        <div class="navigation-buttons">
+          <button class="previous" onclick="changeSlide(-1)">
+            <p class="button__arrows">&larr;</p>
+          </button>
+          <button class="next" onclick="changeSlide(+1)">
+            <p class="button__arrows">&rarr;</p>
+          </button>
+        </div>
+        Bullets
+        <div class="bullets">
+          <span class="dot" onclick="goToSlide(0)"></span>
+          <span class="dot" onclick="goToSlide(1)"></span>
+          <span class="dot" onclick="goToSlide(2)"></span>
+          <span class="dot" onclick="goToSlide(3)"></span>
+          <span class="dot" onclick="goToSlide(4)"></span>
+          <span class="dot" onclick="goToSlide(5)"></span>
+        </div>
+        <!--Nummerering-->
+
         <div class="counter">Bilde 1 av 6</div>
       </div>
     </main>
