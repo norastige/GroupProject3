@@ -7,8 +7,16 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
 .slideshow-container {
   width: 100%;
+
   position: relative;
   max-width: 600px;
   margin: auto;
@@ -23,8 +31,8 @@ body {
 }
 
 .slide img {
-  width: 100%;
-  height: auto;
+  width: 30rem;
+  height: 40rem;
 }
 
 .caption {
@@ -67,6 +75,16 @@ body {
   right: 16px;
 }
 
+.button__arrows {
+  color: white;
+  font-size: 2rem;
+}
+
+.button__arrows:hover {
+  background-color: black;
+  opacity: 0.3;
+}
+
 .counter {
   margin: 10px 0;
   text-align: center;
@@ -103,4 +121,5 @@ body {
 }
 .slide.active {
   display: block;
+
 }
