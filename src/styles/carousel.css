@@ -121,7 +121,7 @@ main {
 }
 .slide.active {
   display: block;
-=======
+}
 @media screen and (max-width: 500px) {
   .slide img {
     width: 20rem;
@@ -134,5 +134,4 @@ main {
     width: 18rem;
     height: 28rem;
   }
-
 }
