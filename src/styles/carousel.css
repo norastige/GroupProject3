@@ -122,16 +122,3 @@ main {
 .slide.active {
   display: block;
 }
-@media screen and (max-width: 500px) {
-  .slide img {
-    width: 20rem;
-    height: 30rem;
-  }
-}
-
-@media screen and (max-width: 370px) {
-  .slide img {
-    width: 18rem;
-    height: 28rem;
-  }
-}
