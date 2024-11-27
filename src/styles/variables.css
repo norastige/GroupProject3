@@ -1,0 +1,16 @@
+:root {
+  /* Spacing */
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 1.5rem;
+  --spacing-xlarge: 3rem;
+
+  /* Colors */
+  --color-text: #000000;
+  --color-bullets: #ffffff;
+
+  /* Font Size */
+  --font-size-small: 0.5rem;
+  --font-size-medium: 1rem;
+  --font-size-large: 2rem;
+}
